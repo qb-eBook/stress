@@ -1,0 +1,26 @@
+{
+  "name": "stress",
+  "version": "1.0.0",
+  "description": "《压力之下，择要事为之》",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qb-eBook/stress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qb-eBook/stress/issues"
+  },
+  "homepage": "https://github.com/qb-eBook/stress#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
